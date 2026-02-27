@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+}
+
+section {
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-top: 10px;
+}
+
+h4 {
+  padding-top: 10px;
+}
+
+p {
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  padding: 1ch;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  background: #eee;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (width > 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
